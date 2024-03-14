@@ -1,27 +1,22 @@
-import logo from "./logo.svg";
-import "./App.css";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header flex flex-col gap-3">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <h1 className="text-3xl font-bold">To do list App!</h1>
-        <p className=" text-slate-300 bg-indigo-500 p-3 rounded-md w-full">
-          My to do 1
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p className=" text-slate-300 bg-indigo-500 p-3 rounded-md w-full">
-          My to do 2
-        </p>
-        <p className=" text-slate-300 bg-indigo-500 p-3 rounded-md w-full">
-          My to do 3
-        </p>
-        <p className=" text-slate-300 bg-indigo-500 p-3 rounded-md w-full">
-          My to do 4
-        </p>
-        <p className=" text-slate-300 bg-indigo-500 p-3 rounded-md w-full">
-          My to do 5
-        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
     </div>
   );
